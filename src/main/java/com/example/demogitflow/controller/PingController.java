@@ -12,6 +12,6 @@ public class PingController {
   public String ping() {
     log.info("Entering method ping");
     log.info("Done with method ping");
-    return "pong";
+    return "PONG";
   }
 }
