@@ -14,4 +14,11 @@ public class PingController {
     log.info("Done with method ping");
     return "pong";
   }
+
+  @GetMapping("/pong")
+  public String pong() {
+    log.info("Entering method pong");
+    log.info("Done with method pong");
+    return "ping";
+  }
 }
